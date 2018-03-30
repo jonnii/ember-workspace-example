@@ -1,0 +1,1 @@
+export { default } from 'fancy-components/components/navigation-bar';
