@@ -7,7 +7,7 @@ const Router = EmberRouter.extend({
 });
 
 Router.map(function() {
-  this.mount('admin-engine');
+  this.mount('admin-engine', { path: 'admin' });
 });
 
 export default Router;
